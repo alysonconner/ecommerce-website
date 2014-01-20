@@ -1,7 +1,12 @@
 /*
   Colour Palette
-  - Dark green: #060 - rgb(0, 100, 0)
-  - Dark red: #600 - rgb(100, 0, 0)
+
+	dark pink - color1 #7C6165 rbg(124,97,101)
+	light pink - color2 #D1A1A7 rbg(124,97,101)
+	mint green - color3 #EAF5EA rbg(124,97,101)
+	teal - color4 #A4BDBC rbg(124,97,101)
+	eggplant(black) - color5 #221718 rbg(124,97,101)	
+
  */
 
 
@@ -137,8 +142,8 @@ ul li {
 }
 
 ul li:before {
-	content:"❁";
-	color: #666;
+	content:"◆";
+	color: #A4BDBC;
 	position: absolute;
 	left: -1em;
 }
@@ -168,6 +173,8 @@ caption {
 	color: #D1A1A7;
 }
 
+/* Table Styling Begins*/
+
 table {
 	border: 1px solid;
 	margin-top: 1.5rem;
@@ -176,7 +183,6 @@ table {
 
 table th {
 	font-weight: bold;
-	font-size: 20px;
 	background-color: rgba(164,189,188,.5);
 	padding: 2%;
 	color: white;
@@ -194,6 +200,5 @@ table tr {
 	background-color: white;
 }
 
-
-
+/* Table Styling Ends */
 
