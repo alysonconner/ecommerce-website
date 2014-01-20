@@ -177,6 +177,7 @@ table th {
 	font-weight: bold;
 	font-size: 20px;
 	background-color: rgba(164,189,188,.5);
+	padding: 2%;
 	color: white;
 	text-transform: uppercase;
 }
@@ -189,4 +190,9 @@ table td {
 }
 
 table tr {
+	background-color: white;
+}
+
+
+
 
