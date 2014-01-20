@@ -112,13 +112,13 @@ a,
 a:link {
 	color: #D1A1A7;
 	text-decoration: none;
-	border-bottom: 0.1em solid rgba(0,255,0,0.5);
+	border-bottom: 1px solid rgba(209,161,167,.5);
 	transition: all 200ms linear;
 }
 
 a:visited {
 	color: #D1A1A7;
-	border-bottom-color: rgba(209,161,167,.5);
+	border-bottom-color: rgba(209,161,167,.5);x
 }
 
 a:hover,
@@ -151,6 +151,7 @@ blockquote {
 
 blockquote footer {
 	color: #221718;
+	padding-right: 5%;
 	text-align: right;
 }
 
