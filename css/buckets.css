@@ -2,11 +2,11 @@
 	margin-bottom:0;
 }
 
-.large-bucket {
-
+.bucket-ul {
+	margin-top: .5em;
 }
 
-.bucket-ul {
-	padding-top: 1em;
-	margin-top: 1em;
+.promo {
+	margin-top: .25em;
+	margin-bottom: 0;
 }
