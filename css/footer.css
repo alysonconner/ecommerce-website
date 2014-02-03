@@ -1,0 +1,21 @@
+.footer {
+	text-decoration: none;
+	background-color:;
+	width: 100%;
+	text-align: center;
+}
+
+.to-top {
+	color: black;
+}
+
+.logo {
+	margin: auto;
+	width: 8rem;
+	display:block; 
+	left: 0; 
+	right: 0;
+	top:5%;
+	bottom: auto;
+	padding-bottom: .5rem;
+}
