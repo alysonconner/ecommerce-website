@@ -1,12 +1,24 @@
 .footer {
+	padding-top: 5%;
+	padding-bottom: 5%;
 	text-decoration: none;
 	background-color:;
 	width: 100%;
 	text-align: center;
+	background-color: #A4BDBC;
 }
 
-.to-top {
-	color: black;
+.fa {
+	color: white;
+	text-decoration: none;
+	border: none;
+	transition: all 200ms linear;
+}
+
+a:link {
+	text-decoration: none;
+	border: none;
+	transition: all 200ms linear;
 }
 
 .logo {
