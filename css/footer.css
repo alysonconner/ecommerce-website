@@ -13,12 +13,21 @@
 	text-decoration: none;
 	border: none;
 	transition: all 200ms linear;
+	padding: 15px;
+}
+
+.fa:hover {
+	color: #EAF5EA;
 }
 
 a:link {
 	text-decoration: none;
 	border: none;
 	transition: all 200ms linear;
+}
+
+.return-to-top {
+	color: #EAF5EA;
 }
 
 .logo {

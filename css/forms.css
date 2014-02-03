@@ -5,6 +5,7 @@
 
 .flex-img {
 	max-width: 100%;
+	min-width: 5rem;
 }
 
 .flexsearch--wrapper {
