@@ -1,6 +1,10 @@
 .search {
 	height: 3em;
-	width: 80%;
+	width: 60%;
+}
+
+.flex-img {
+	max-width: 100%;
 }
 
 .flexsearch--wrapper {
