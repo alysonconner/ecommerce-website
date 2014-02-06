@@ -2,7 +2,6 @@
 	padding-top: 5%;
 	padding-bottom: 5%;
 	text-decoration: none;
-	background-color:;
 	width: 100%;
 	text-align: center;
 	background-color: #A4BDBC;
@@ -17,16 +16,6 @@
 }
 
 .fa:hover {
-	color: #EAF5EA;
-}
-
-a:link {
-	text-decoration: none;
-	border: none;
-	transition: all 200ms linear;
-}
-
-.return-to-top {
 	color: #EAF5EA;
 }
 
