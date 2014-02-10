@@ -1,11 +1,13 @@
 .product {
 	background-color: white;
-	border-top: 1px solid #7C6165;
-	border-bottom: 1px solid #7C6165;
-	margin-bottom: 1em;
 	overflow: hidden;
 }
 
 .space-none {
 	margin-bottom: 5px;
+}
+
+.border {
+	border: 2px dotted #EAF5EA;
+	margin: .5em;
 }

@@ -1,5 +1,7 @@
 .list-group {
 	list-style-type: none;
+	padding-left: 5%;
+	margin-bottom: 5%;
 }
 
 .list-group-item:before {
@@ -18,4 +20,14 @@
 .list-group-item:active,
 .list-group-item:selected {
 	
+}
+
+.tiny {
+	font-size: .5rem;
+	text-decoration:none;
+	list-style-type: none;
+}
+
+.space-around {
+	border: 10%;
 }

@@ -36,3 +36,8 @@
 		width: 66.6666%;
 	}
 }
+
+.border {
+	border: 2px dotted #EAF5EA;
+	margin: .5em;
+}
