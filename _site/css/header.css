@@ -1,0 +1,15 @@
+.logo {
+	margin: auto;
+	width: 8rem;
+	display:block; 
+	left: 0; 
+	right: 0;
+	top:5%;
+	bottom: auto;
+	padding-bottom: .5rem;
+}
+
+.header {
+	text-align: center;
+	overflow: hidden;
+}

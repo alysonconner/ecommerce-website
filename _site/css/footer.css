@@ -1,0 +1,31 @@
+.footer {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-decoration: none;
+	width: 100%;
+	text-align: center;
+	background-color: #A4BDBC;
+}
+
+.fa {
+	color: white;
+	text-decoration: none;
+	border: none;
+	transition: all 200ms linear;
+	padding: 15px;
+}
+
+.fa:hover {
+	color: #EAF5EA;
+}
+
+.logo {
+	margin: auto;
+	width: 8rem;
+	display:block; 
+	left: 0; 
+	right: 0;
+	top:5%;
+	bottom: auto;
+	padding-bottom: .5rem;
+}
