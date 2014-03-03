@@ -5,9 +5,10 @@ footer {
 	text-decoration: none;
 	width: 100%;
 	text-align: center;
-	background-color: #A4BDBC;
-	position: absolute;
-	bottom: 0;
+}
+
+footer a, a:link {
+	color: white;
 }
 
 .fa {
@@ -31,9 +32,4 @@ footer {
 	top:5%;
 	bottom: auto;
 	padding-bottom: .5rem;
-}
-
-.return-to-top {
-	color: white;
-
 }

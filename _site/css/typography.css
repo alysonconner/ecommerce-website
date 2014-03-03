@@ -113,21 +113,39 @@ h1, h2, h3, h4, h5, h6,
 	color: #fff;
 }
 
-footer a,
-footer a:link 
-footer a:visited {
-	color: #EAF5EA;
-	text-decoration: none;
-	border: none;
-	transition: all 200ms linear;
+.welcome {
+	text-align: center;
+	padding: 1em;
 }
 
-footer a:visited {
-	color: #EAF5EA;
+.thank-you-h1 {
+	color: #D1A1A7;
+	margin-top: 1em;
+	text-align: center;
 }
 
-footer a:hover {
-	color: #EAF5EA;
+.thank-you {
+	text-align: center;
+	padding-left: 5em;
+	padding-right: 5em;
+}
+
+.thankyou-box {
+	border: 3px dotted #EAF5EA;
+	margin: 1.5em;
+}
+
+.cake-logo {
+	opacity: .5;
+	height: 1.5em;
+	width: auto;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.about-body {
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 a,
@@ -145,6 +163,19 @@ a:hover,
 a:focus,
 a:active {
 	color: #7C6165;
+}
+
+footer a, 
+footer a:link, 
+footer a:visited {
+	color: white;
+	text-decoration: none;
+	border: none;
+	transition: all 200ms linear;
+}
+
+footer a:hover {
+	color: #EAF5EA;
 }
 
 ul {
