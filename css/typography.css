@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6,
 
 .welcome {
 	text-align: center;
-	padding: 1em;
+	padding-top: 1em;
 }
 
 .thank-you-h1 {
@@ -185,6 +185,50 @@ h1, h2, h3, h4, h5, h6,
 	color: #A4BDBC;
 }
 
+.border-box {
+	border: 3px dotted #EAF5EA;
+	padding: 1.5em;
+	text-align: center;
+}
+
+.hours-list {
+	list-style-type: none;
+	font-weight: bold;
+	padding: .5em;
+	text-align: center;
+	margin-bottom: 0;
+
+}
+
+.hours-list h4{
+	text-align: center;
+	margin-bottom: .5em;
+	margin-top: .5em;
+}
+
+.hours-list li{
+	line-height: 2;
+	text-align:center;
+	list-style-type: none;
+}
+
+.hours-list dt{
+	font-weight: bold;
+	text-align: center;
+	background-color: rgba(234, 245, 234, 1);
+	text-transform: uppercase;
+	list-style-type: none;
+}
+
+.hours-list dl {
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.hours-list dd {
+	margin-left: 0;
+}
+
 a,
 a:link {
 	color: #D1A1A7;
@@ -221,13 +265,6 @@ ul {
 
 ul li {
 	position: relative;
-}
-
-ul li:before {
-	content:"◆";
-	color: #A4BDBC;
-	position: absolute;
-	left: -1em;
 }
 
 blockquote {
