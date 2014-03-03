@@ -126,13 +126,26 @@ h1, h2, h3, h4, h5, h6,
 
 .thank-you {
 	text-align: center;
-	padding-left: 5em;
-	padding-right: 5em;
+	padding-left: 3em;
+	padding-right: 3em;
 }
 
 .thankyou-box {
 	border: 3px dotted #EAF5EA;
 	margin: 1.5em;
+}
+
+.welcome-box {
+	margin: .5em;
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+.welcome-box h1 {
+	color: #221718;
+	margin-left: 2em;
+	margin-right: 2em;
+	padding-bottom: .5em;
 }
 
 .cake-logo {
@@ -143,9 +156,33 @@ h1, h2, h3, h4, h5, h6,
 	padding-right: 1em;
 }
 
+.cake-about {
+	position: relative;
+	padding-left: 45%;
+	padding-right: auto;
+	width: 3em;
+	height: auto;
+}
+
 .about-body {
+	text-align: center;
 	padding-left: 1em;
 	padding-right: 1em;
+}
+
+.about-image-box {
+	padding: 0 5%;
+}
+
+.address {
+	line-height: 0;
+	margin-left: 2em;
+	margin-right: 2em;
+	border-bottom: 3px double #D1A1A7;
+}
+
+.soon {
+	color: #A4BDBC;
 }
 
 a,
