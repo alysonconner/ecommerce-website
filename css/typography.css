@@ -178,7 +178,6 @@ h1, h2, h3, h4, h5, h6,
 	line-height: 0;
 	margin-left: 2em;
 	margin-right: 2em;
-	border-bottom: 3px double #D1A1A7;
 }
 
 .soon {
@@ -227,6 +226,14 @@ h1, h2, h3, h4, h5, h6,
 
 .hours-list dd {
 	margin-left: 0;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
 }
 
 a,
