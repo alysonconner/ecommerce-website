@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
 	<meta charset="utf-8">
-	<title>Cake</title>
+<title>{{page.title}} · cake</title>
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -17,6 +17,7 @@
   <link href="{{site.baseurl}}/css/header.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/list-group.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/media-objects.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/promos.css" rel="stylesheet">  
   <link href="{{site.baseurl}}/css/product-details.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/product.css" rel="stylesheet">
 
@@ -30,9 +31,9 @@
 
 </div>
     <ul class="list-group header">
-        <li class="list-group-item list-group-item-inline"><a href="{{site.baseurl}}/">Home</a></li>
-        <li class="list-group-item list-group-item-inline"><a href="{{site.baseurl}}/about/">About</a></li>
-        <li class="list-group-item list-group-item-inline"><a href="{{site.baseurl}}/thank-you/">Thank you</a></li>
+        <li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/' %}current {% endif %}" href="{{site.baseurl}}/">Home</a></li>
+        <li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/about/' %}current {% endif %}" href="{{site.baseurl}}/about/">About</a></li>
+        <li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/thank-you/' %}current {% endif %}" href="{{site.baseurl}}/thank-you/">Thank you</a></li>
     </ul>
   </div>
 
@@ -48,6 +49,12 @@
       </form>
 </div>
 </div>
+
+{% if page.showbanner%}
+<div class="banner">
+  <h2>{{page.bannertext}}</h2>
+</div>
+{% endif %}
 
 <!-- header end -->
 
