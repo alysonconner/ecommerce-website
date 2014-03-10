@@ -43,9 +43,11 @@
 }
 
 .current {
+
 	border-left: 1px dotted #A4BDBC;
 	border-right: 1px dotted #A4BDBC;
 	padding: .25em;
+	
 }
 
 .banner {

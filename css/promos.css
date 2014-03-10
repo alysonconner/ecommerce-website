@@ -1,8 +1,15 @@
 .promo-small {
-	background-color: #c7c0ae;
-	border-radius: 10px;
+	background-color: #A4BDBC;
+	margin: .5em;
+	padding: .5em;
+}
+
+.promo-large {
+	background-color: #D1A1A7;
+	margin: .5em;
+	padding: .5em;
 }
 
 .promo-group .unit:last-child .promo-small{
-	background-color: green;
+	background-color: #EAF5EA;
 }
