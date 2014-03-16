@@ -8,6 +8,7 @@
 }
 
 .border {
-	border: 2px dotted #EAF5EA;
+	border: 2px dotted #fff;
+	padding: 1em;
 	margin: .5em;
 }
