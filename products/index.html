@@ -1,0 +1,26 @@
+---
+layout: default
+title: Products
+---
+
+<div class="grid">
+		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+			<h1>Stuff we Bake!</h1>
+		</div>
+		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+			<p>22 Delicious flavours for you to taste!</p>
+		</div>
+</div>
+
+<ul>
+{% for products in site.pages %}
+	{% if products.category == 'dinosaur' %}
+	<li>
+		<a href="{{site.baseurl}}{{products.url}}">
+			<img src="{{site.baseurl}}/images/{{products.image}}" alt="">
+			{{products.name}}
+		</a>
+	</li>
+	{% endif %}
+{% endfor %}
+</ul>
