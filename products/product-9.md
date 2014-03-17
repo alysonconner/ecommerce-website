@@ -1,5 +1,6 @@
 ---
 layout: products
+title: Golden Vanilla
 category: cake
 name: Golden Vanilla
 type: buttercream

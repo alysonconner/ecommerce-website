@@ -1,5 +1,6 @@
 ---
 layout: products
+title: Chocolate
 category: cake
 name: Chocolate
 type: buttercream

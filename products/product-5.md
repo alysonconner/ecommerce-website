@@ -1,5 +1,6 @@
 ---
 layout: products
+title: Whipped
 category: icing
 name: Whipped Cappucino
 type: whipped

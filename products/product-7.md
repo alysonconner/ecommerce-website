@@ -1,5 +1,6 @@
 ---
 layout: products
+title: Double Chocolate
 category: cake
 name: Double Chocolate
 type: buttercream

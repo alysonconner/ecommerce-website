@@ -1,5 +1,6 @@
 ---
 layout: products
+title: Mocha
 category: cake
 name: Mocha
 type: buttercream

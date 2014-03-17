@@ -1,5 +1,6 @@
 ---
 layout: products
+title: Creamcheese
 category: icing
 name: Vanilla with Creamcheese Icing
 type: creamcheese

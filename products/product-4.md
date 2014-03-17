@@ -1,5 +1,6 @@
 ---
 layout: products
+title: Fondant
 category: icing
 name: Blueberry with Rolled Fondant
 type: fondant

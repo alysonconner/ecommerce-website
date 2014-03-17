@@ -1,5 +1,6 @@
 ---
 layout: products
+title: Classic White
 category: cake
 name: Classic White Cake
 type: buttercream

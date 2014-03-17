@@ -1,5 +1,6 @@
 ---
 layout: products
+title: Buttercream
 category: icing
 name: Caramel with Buttercream
 type: buttercream

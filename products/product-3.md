@@ -1,5 +1,6 @@
 ---
 layout: products
+title: Ganache
 category: icing
 name: Double Chocolate Ganashe
 type: ganache
