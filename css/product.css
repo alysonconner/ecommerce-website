@@ -12,3 +12,11 @@
 	padding: 1em;
 	margin: .5em;
 }
+
+.icing-image {
+	max-width: 200px;
+}
+
+.icing-description {
+	max-width: 400px;
+}
