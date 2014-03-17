@@ -1,50 +1,56 @@
 ---
 layout: default
 title: Products
+showbanner: yes
+bannertext: Love and CUPCAKES are all you need!
 ---
-<div class="border">
+<div class="float-left unit unit-s-1 unit-m-1-2 unit-l-1-2">
 <div class="grid">
-		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3 border">
+		<div class="border center-h1">
 			<h1>Icing</h1>
-			<p>Check out all our delicious flavours</p>
+			<p class="blue">Check out all our delicious flavours</p>
 		</div>
 </div>
 
+<div class="center">
 <ul>
 {% for products in site.pages %}
 	{% if products.category == 'icing' %}
 	<li>
 		<a href="{{site.baseurl}}{{products.url}}">
 			<img src="{{site.baseurl}}/assets/{{products.image}}" class="icing-image" alt="">
-			{{products.name}}
+			<p>{{products.name}}</p>
 		</a>
 	</li>
 	{% endif %}
 {% endfor %}
 </ul>
 </div>
+</div>
 
 
 
 
-<div class="border">
+<div class="float-right unit unit-s-1 unit-m-1-2 unit-l-1-2">
 <div class="grid">
-		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3 border">
+		<div class="border center-h1">
 			<h1>Cake</h1>
-			<p>We're always working on improving our recipes!</p>
+			<p class="pink">We're always working on improving our recipes!</p>
 		</div>
 </div>
 
+<div class="center">
 <ul>
 {% for products in site.pages %}
 	{% if products.category == 'cake' %}
 	<li>
 		<a href="{{site.baseurl}}{{products.url}}">
 			<img src="{{site.baseurl}}/assets/{{products.image}}" class="icing-image" alt="">
-			{{products.name}}
+			<p>{{products.name}}</p>
 		</a>
 	</li>
 	{% endif %}
 {% endfor %}
 </ul>
+</div>
 </div>
