@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div>
+<ul>
+<li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/products/' %}current {% endif %}" href="{{site.baseurl}}/products/">Products</a></li>
+</ul
+</div>
+
+<div class="grid unit unit-s-1 unit-m-1 unit-l-1">
+	<div class="border">
+		<h1>{{page.name}}</h1>
+
+		<dl>
+			<dt>Type</dt>
+			<dd>{{page.type}}</dd>
+			<dt>Flavour</dt>
+			<dd>{{page.flavour}}</dd>
+		</dl>
+
+{{content}}
+	</div>
+</div>
