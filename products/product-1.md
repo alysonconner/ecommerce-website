@@ -1,9 +1,9 @@
 ---
-layout: cupcakes
+layout: products
 category: icing
-name: buttercream
-type: creamcheese
-flavour: vanilla
+name: product-1
+type: buttercream
+flavour: chocolate
 image: assets/cake-logo.svg
 ---
 

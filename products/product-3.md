@@ -1,13 +1,13 @@
 ---
 layout: products
 category: icing
-name: product-2
-type: creamcheese
-flavour: vanilla
+name: product-3
+type: ganache
+flavour: caramel
 image: assets/cake-logo.svg
 ---
 
-*Vanilla* is the most **popular** cupcake we make!
+*Ganache* is the most **rich** cupcake we make!
 
 The T-Rex lived in the [Late Cretaceous Period](https://en.wikipedia.org/wiki/Late_Cretaceous_Period).
 
