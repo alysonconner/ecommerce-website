@@ -21,4 +21,4 @@ We love our light and tasty [Buttercream Icing](https://en.wikipedia.org/wiki/Bu
 - chocolate
 - cake
 
-<img src="{{site.baseurl}}/assets/cake-1.svg" class="icing-description" alt="">
+<img src="{{site.baseurl}}/assets/cake-4.svg" class="icing-description" alt="">
