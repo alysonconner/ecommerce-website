@@ -1,15 +1,15 @@
 ---
 layout: products
 category: icing
-name: product-1
+name: Caramel with Buttercream
 type: buttercream
-flavour: chocolate
-image: assets/cake-logo.svg
+flavour: caramel
+image: product-1.svg
 ---
 
 *Chocolate* is the most **popular** flavour that we carry.
 
-The Pteranodon lived in the [Cretaceous Period](https://en.wikipedia.org/wiki/Cretaceous).
+We love our light and tasty [Buttercream Icing](https://en.wikipedia.org/wiki/Buttercream). You will too.
 
 <!-- 	# = h1 
 		## = h2 
@@ -17,8 +17,8 @@ The Pteranodon lived in the [Cretaceous Period](https://en.wikipedia.org/wiki/Cr
 
 ## Features
 
-- Big teeth
-- Small arms
-- Thick tail
+- buttercream
+- chocolate
+- cake
 
-![Pteranodon skeleton](https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Pteranodon_amnh_martyniuk.jpg/456px-Pteranodon_amnh_martyniuk.jpg)
+<img src="{{site.baseurl}}/assets/product-1.svg" class="icing-description" alt="">

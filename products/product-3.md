@@ -1,15 +1,15 @@
 ---
 layout: products
 category: icing
-name: product-3
+name: Double Chocolate Ganashe
 type: ganache
-flavour: caramel
-image: assets/cake-logo.svg
+flavour: double-chocolate
+image: product-3.svg
 ---
 
 *Ganache* is the most **rich** cupcake we make!
 
-The T-Rex lived in the [Late Cretaceous Period](https://en.wikipedia.org/wiki/Late_Cretaceous_Period).
+This double chocolate [Ganache](https://en.wikipedia.org/wiki/Ganache) icing is rich and sweet.
 
 <!-- 	# = h1 
 		## = h2 
@@ -17,9 +17,10 @@ The T-Rex lived in the [Late Cretaceous Period](https://en.wikipedia.org/wiki/La
 
 ## Features
 
-- Big teeth
-- Small arms
-- Thick tail
+- ganache
+- caramel
+- cake
 
-![T-Rex Skeleton](https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Tyrannosaurus_Rex_Holotype.jpg/800px-Tyrannosaurus_Rex_Holotype.jpg)
+<img src="{{site.baseurl}}/assets/product-3.svg" class="icing-description" alt="">
+
 

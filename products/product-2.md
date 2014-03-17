@@ -1,15 +1,15 @@
 ---
 layout: products
 category: icing
-name: product-2
+name: Vanilla with Creamcheese Icing
 type: creamcheese
 flavour: vanilla
-image: assets/cake-logo.svg
+image: product-2.svg
 ---
 
 *Vanilla* is the most **popular** cupcake we make!
 
-The T-Rex lived in the [Late Cretaceous Period](https://en.wikipedia.org/wiki/Late_Cretaceous_Period).
+Our classic [Vanilla Cream Cheese Icing](https://en.wikipedia.org/wiki/Icing_(food). Always a crowd pleaser.
 
 <!-- 	# = h1 
 		## = h2 
@@ -17,9 +17,10 @@ The T-Rex lived in the [Late Cretaceous Period](https://en.wikipedia.org/wiki/La
 
 ## Features
 
-- Big teeth
-- Small arms
-- Thick tail
+- creamcheese
+- vanilla
+- cake
 
-![T-Rex Skeleton](https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Tyrannosaurus_Rex_Holotype.jpg/800px-Tyrannosaurus_Rex_Holotype.jpg)
+<img src="{{site.baseurl}}/assets/product-2.svg" class="icing-description" alt="">
+
 
