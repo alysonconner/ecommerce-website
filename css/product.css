@@ -20,3 +20,23 @@
 .icing-description {
 	max-width: 400px;
 }
+
+.center {
+	text-align: center;
+	display: block;
+}
+
+.center-h1 {
+	text-align: center;
+	display: block;
+}
+
+.blue {
+	color: #A4BDBC;
+	border-bottom: 2px dotted #A4BDBC;
+}
+
+.pink {
+	color: #D1A1A7;
+	border-bottom: 2px dotted #D1A1A7;
+}
