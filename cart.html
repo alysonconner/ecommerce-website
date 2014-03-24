@@ -3,25 +3,36 @@ layout: default
 title: Shopping Cart
 ---
 
+<h1 class="margin-auto border">Shopping Cart</h1>
 
+<div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 margin-auto">
+	<div class="border cart-item">
+		<h3 class="cupcake-choice">Cupcake Choice #1</h3>
+		<img src="{{site.baseurl}}/assets/product-1.svg" class="icing-description" alt="">
+	</div>
+</div>
 
-<div class="unit unit-s-1 unit-m-1-2 unit-l-2-3">
-			<div class="gutter">
-				<h2>{{include.title}}</h2>
-				<p>{{include.desc}}</p>
-				<button class="btn-alt yotta bucket-btn">Pick me!</button>
-				<p class="micro promo">See more promo's</p>
+<div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 margin-auto">
+	<div class="border cart-item">
+		<h3 class="cupcake-choice">Cupcake Choice #2</h3>
+		<img src="{{site.baseurl}}/assets/product-2.svg" class="icing-description" alt="">
+	</div>
+</div>
 
-				<ul class="list-group">
-			      <li class="list-group-item list-group-item-inline">
-			        <img src="http://placehold.it/50x50/7C6165/ffffff/&text=berry" alt="">
-			      </li>
-			      <li class="list-group-item list-group-item-inline">
-			        <img src="http://placehold.it/50x50/D1A1A7/ffffff/&text=candy" alt="">
-			      </li>
-			      <li class="list-group-item list-group-item-inline">
-			        <img src="http://placehold.it/50x50/EAF5EA/ffffff/&text=mint" alt="">
-			      </li>
-			    </ul>
-			</div>
+<div class="unit unit-s-1 unit-m-1 unit-l-1">
+	<div class="gutter margin-auto">
+		<div class="round-button">
+		    <a href="{{site.baseurl}}/thank-you" alt="">
+		        <p class="circle-text mega">Pay</p>
+		    </a>
 		</div>
+
+		<div class="see-more">
+			<p class="micro promo margin-auto">We're happy you found something you like!</p>
+			<a class="" href="{{site.baseurl}}/products/{{products.name}}" alt="">
+				<h5>see more delicious options.</h5>
+			</a>
+		</div>
+
+	</div>
+</div>
