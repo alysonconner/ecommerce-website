@@ -8,7 +8,6 @@
 }
 
 .border {
-	border: 2px dotted #fff;
 	padding: 1em;
 	margin: .5em;
 }
@@ -40,3 +39,34 @@
 	color: #D1A1A7;
 	border-bottom: 2px dotted #D1A1A7;
 }
+
+.margin-auto {
+	margin: auto;
+	text-align: center;
+}
+
+.see-more {
+	margin-top: 2em;
+}
+
+.cart-item {
+	background-color: rgba(164,189,188,1);
+}
+
+.cupcake-choice {
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="grid unit unit-s-1 unit-m-1 unit-l-1">
-	<div class="border">
+	<div class="border margin-auto">
 		<h1>{{page.name}}</h1>
 
 		<dl>
@@ -14,10 +14,19 @@ layout: default
 		</dl>
 
 {{content}}
+		
+		
+		<div class="round-button">
+		    <a href="{{site.baseurl}}/cart" alt="">
+		        <p class="circle-text mega">Buy</p>
+		    </a>
+		</div>
 
-		<a class="" href="{{site.baseurl}}/products/{{products.name}}" alt="">
-			<h5>see more delicious options.</h5>
-		</a>
+		<div class="see-more">
+			<a class="" href="{{site.baseurl}}/products/{{products.name}}" alt="">
+				<h5>see more delicious options.</h5>
+			</a>
+		</div>
 	</div>
 </div>
 
