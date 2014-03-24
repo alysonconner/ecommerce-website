@@ -1,27 +1,25 @@
 ---
 layout: default
-title: Cake Options
+title: Icing Options
 ---
 
 <div class="border">
 <div class="grid">
 		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3 border">
-			<h1>Cake</h1>
-			<p>We're always working on improving our recipes!</p>
+			<h1>Icing</h1>
+			<p>Check out some of our delicious flavours!</p>
 		</div>
 </div>
 
 <ul>
 {% for products in site.pages %}
-	{% if products.category == 'cake' %}
+	{% if products.category == 'icing' %}
 	<li>
 		<a href="{{site.baseurl}}{{products.url}}">
 			<img src="{{site.baseurl}}/assets/{{products.image}}" class="icing-image" alt="">
 			<p>{{products.name}}</p>
 		</a>
 	</li>
-
-	
 	{% endif %}
 {% endfor %}
 </ul>
