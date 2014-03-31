@@ -1,25 +1,14 @@
 ---
 layout: products
-title: Mocha
+title: Mocha Cake
 category: cake
-name: Mocha
+name: Mocha Cake
 type: buttercream
 flavour: caramel
+single-price: $2.99
+dozen-price: $22.99
 image: cake-5.svg
 ---
 
-*Chocolate* is the most **popular** flavour that we carry.
-
-We love our light and tasty [Buttercream Icing](https://en.wikipedia.org/wiki/Buttercream). You will too.
-
-<!-- 	# = h1 
-		## = h2 
--->
-
-## Features
-
-- buttercream
-- chocolate
-- cake
-
-<img src="{{site.baseurl}}/assets/cake-5.svg" class="icing-description" alt="">
+*Mocha Cake* is the most **popular** flavour that we carry. We love our light and tasty [Buttercream Icing](https://en.wikipedia.org/wiki/Buttercream). You will too.
+###### Features: buttercream, chocolate, cake

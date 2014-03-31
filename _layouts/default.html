@@ -25,18 +25,21 @@
 <body>
 
 <!-- header start -->
-
+<header role="banner">
 <div class="header">
     <a href="{{site.baseurl}}/"><img class="logo" src="{{site.baseurl}}/assets/cake-logo.svg" alt="logo"></a>
 
 </div>
+
+<!-- role="navigation" -->
+<nav role="navigation">
     <ul class="list-group header">
         <li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/' %}current {% endif %}" href="{{site.baseurl}}/">Home</a></li>
         <li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/products/' %}current {% endif %}" href="{{site.baseurl}}/products/">Products</a></li>
         <li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/about/' %}current {% endif %}" href="{{site.baseurl}}/about/">About</a></li>
         <li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/thank-you/' %}current {% endif %}" href="{{site.baseurl}}/thank-you/">Thank you</a></li>
     </ul>
-    </ul>
+</nav>
   </div>
 
 </div>
@@ -55,6 +58,7 @@
 </div>
 </div>
 
+</header>
 <!-- Search ends -->
 
 <!-- header end -->
@@ -65,7 +69,7 @@
 
 <!-- footer start -->
 
-<footer class="footer unit unit-m-1">
+<footer class="footer unit unit-m-1" role="contentinfo">
   <div>
     <a href="#"><i class="yotta fa fa-facebook"></i></a>
     <a href="#"><i class="yotta fa fa-twitter"></i></a>

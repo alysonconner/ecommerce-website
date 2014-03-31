@@ -7,7 +7,7 @@ bannertext: Love and CUPCAKES are all you need!
 <div class="float-left unit unit-s-1 unit-m-1-2 unit-l-1-2">
 <div class="grid">
 		<div class="border center-h1">
-		<a href="{{site.baseurl}}/products/icing/" alt="">
+		<a href="{{site.baseurl}}/products/icing/" alt="icing options">
 			<h1>Icing</h1>
 		</a>
 			<p class="blue">Check out all our delicious flavours</p>
@@ -20,7 +20,7 @@ bannertext: Love and CUPCAKES are all you need!
 	{% if products.category == 'icing' %}
 	<li>
 		<a href="{{site.baseurl}}{{products.url}}">
-			<img src="{{site.baseurl}}/assets/{{products.image}}" class="icing-image" alt="">
+			<img src="{{site.baseurl}}/assets/{{products.image}}" class="icing-image" alt="icing">
 			<p>{{products.name}}</p>
 		</a>
 	</li>
@@ -37,7 +37,7 @@ bannertext: Love and CUPCAKES are all you need!
 <div class="grid">
 		<div class="border center-h1">
 
-			<a href="{{site.baseurl}}/products/cake/" alt="">
+			<a href="{{site.baseurl}}/products/cake/" alt="cake options">
 				<h1>Cake</h1>
 			</a>
 			<p class="pink">We're always working on improving our recipes!</p>
@@ -50,7 +50,7 @@ bannertext: Love and CUPCAKES are all you need!
 	{% if products.category == 'cake' %}
 	<li>
 		<a href="{{site.baseurl}}{{products.url}}">
-			<img src="{{site.baseurl}}/assets/{{products.image}}" class="icing-image" alt="">
+			<img src="{{site.baseurl}}/assets/{{products.image}}" class="icing-image" alt="cake">
 			<p>{{products.name}}</p>
 		</a>
 	</li>

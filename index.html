@@ -4,14 +4,15 @@ title: Home
 showbanner: yes
 bannertext: We love cupcakes!
 ---
+<main role="main">
 
 <div class="grid unit unit-s-1 unit-m-1 unit-l-1">
 		<h1 class="yotta welcome">welcome to cake</h1>
-			<div class="about-image-box">
-    			<div class="media-img-reversed">
-    				<img class="media flex-img large-bucket" src="{{site.baseurl}}/assets/about-cupcake.jpg" alt="">
-  				</div>
-  			</div>
+		<div class="about-image-box">
+    	<div class="media-img-reversed">
+    		<img class="media flex-img large-bucket" src="{{site.baseurl}}/assets/about-cupcake.jpg" alt="">
+  		</div>
+  	</div>
 		<p class="thank-you">Founded in 2001, cake is Ottawa’s first and finest cupcake bakery, and we know how much fun a cupcake can be!</p>
 </div>
 
@@ -20,7 +21,7 @@ bannertext: We love cupcakes!
 <div class="grid promo-group promo-large">
   <div class="gutter unit unit-s-1 unit-m-1 unit-l-1">
     {% include promo-large.html title="Flavour of the Week" desc="Chocolate Chip Yummy" image="assets/white-cake.jpg" %}
-    </div>
+  </div>
 </div>
 
 <!-- Large Promo end -->
@@ -28,7 +29,6 @@ bannertext: We love cupcakes!
 <!-- Promo Small start -->
 
 <div class="grid promo-group">
-
   <div class="gutter unit unit-s-1 unit-m-1-2 unit-l-1-3">
     {% include promo-small.html title="Promo 1" desc="Cupcake Mondays" image="/cupcake.jpg" %}
   </div>
@@ -40,7 +40,7 @@ bannertext: We love cupcakes!
   <div class="gutter unit unit-s-1 unit-m-1-2 unit-l-1-3">
     {% include promo-small.html title="Promo 3" desc="Delicious Sale" image="/cupcake-3.jpg" %}
   </div>
-
 </div>
 
+</main>
 <!-- Promo small end -->

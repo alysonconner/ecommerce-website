@@ -28,9 +28,10 @@
   text-align: right;
 }
 
-.nav a {
+a {
   display: inline-block;
   margin: 0 0.4em;
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 50em) {
