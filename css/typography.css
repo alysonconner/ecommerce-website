@@ -253,6 +253,17 @@ a:active {
 	color: #7C6165;
 }
 
+a:hover,
+a:active {
+	/* it's okay to remove the focus rectangle from mouse-based actions */
+	outline: none;
+}
+
+a:focus {
+	/* focus MUST ALWAYS have a focus rectangle */
+	outline: 3px solid #000;
+}
+
 footer a, 
 footer a:link, 
 footer a:visited {
