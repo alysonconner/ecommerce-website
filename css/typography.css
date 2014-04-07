@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6,
 	color: red;
 }
 
-::selection {
+.selection {
 	background-color: #A4BDBC;
 	color: #fff;
 }
@@ -158,8 +158,6 @@ h1, h2, h3, h4, h5, h6,
 
 .cake-about {
 	position: relative;
-	padding-left: 45%;
-	padding-right: auto;
 	width: 3em;
 	height: auto;
 }
