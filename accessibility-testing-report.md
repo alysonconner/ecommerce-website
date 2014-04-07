@@ -37,23 +37,20 @@ User testing was conducted by {Alyson Conner} on {Monday March 31} between the t
 - found hours for Monday to avoid going through whole hours table 
 - etc.
 
-### {Theresa Doe}
+### Chelsea Smith (tab)
 
-- {She completed the task as expected…}
-- {She had troubles completing a specific task…}
-- etc.
+- completed tasks as expected
+- had to tab a lot to get through hours table
 
-### {Todd Doe}
+### Alex Martin (voice)
 
-- {He completed the task as expected…}
-- {He had troubles completing a specific task…}
-- etc.
+- completed tasks as expected
+- was able to navigate as expected
 
-### {Taylor Doe}
+### Evan Grice
 
-- {They completed the task as expected…}
-- {They had troubles completing a specific task…}
-- etc.
+- completed tasks as expected
+- was able to navigate to requested areas
 
 ---
 
@@ -61,15 +58,12 @@ User testing was conducted by {Alyson Conner} on {Monday March 31} between the t
 
 ### Critical, Needs Fixing, Unable to Complete
 
-- {All participants had this problem…}
-- etc.
+- no critical errors
 
 ### Serious, Causes Frustration, May Hinder Completion
 
-- {Two of the participants succeeded where one of them failed…}
-- etc.
+- going through the hours table required a lot of tabbing
 
 ### Minor, Annoying, Won’t Hinder Completion
 
-- {Participants pointed out this inconsistency…}
-- etc.
+- none reported, everything worked as expected
