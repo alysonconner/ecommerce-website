@@ -13,11 +13,13 @@
 }
 
 .icing-image {
-	max-width: 200px;
+	max-width: 300px;
+	width: 20em;
 }
 
 .icing-description {
 	max-width: 400px;
+	text-align: center;
 }
 
 .center {
