@@ -6,28 +6,32 @@
 		  	</div>
 		</div>
 	
+	<div class="border">
 		<div class="media-body">
-		    <h2 class="mega space-none">{{include.title}}</h2>
-		    <p class="micro space-none">{{include.desc}}</p>
+		    <div class="float-left">
+		    	<h2 class="kilo space-none">{{include.title}}</h2>
+		    	<p class="micro space-none">{{include.desc}}</p>
+			</div>
+		    <div class="float-right">
+		    	<p>{{include.price}}</p>
+			</div>
+			<div class="tiny float-left">
+				<p>{{include.blurb}}</p>
+			</div>
 		</div>
 
+		<hr>
 
-		<ul class="list-group">
-		    <li class="list-group-item list-group-item-inline">
-		      <img src="http://placehold.it/50x50/7C6165/ffffff/&amp;text=berry" alt="berry icing">
-		    </li>
-		    <li class="list-group-item list-group-item-inline">
-		      <img src="http://placehold.it/50x50/D1A1A7/ffffff/&amp;text=candy" alt="candy icing">
-		    </li>
-		    <li class="list-group-item list-group-item-inline">
-		      <img src="http://placehold.it/50x50/EAF5EA/ffffff/&amp;text=mint" alt="mint icing">
-		    </li>
-		</ul>
-
-		<div class="media">
-		<a class="btn micro list-group" href="#">Pick me!</a>
+		<div class="round-button">
+			<a href="{{site.baseurl}}/cart" alt="buy button">
+			    <p class="circle-text kilo button-text">add to cart</p>
+			</a>
+		</div>
+		<div class="white">
+			<a href="{{site.baseurl}}/products" class="micro promo center border">See more options</a>
 		</div>
 
+	</div>
 </div>
 
 

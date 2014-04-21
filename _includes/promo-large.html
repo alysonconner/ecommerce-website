@@ -1,27 +1,24 @@
 <div class="grid">
 
-		<div class="unit unit-s-1 unit-m-1-2 unit-l-2-3">
-			<img class="flex-img media-image" src="{{site.baseurl}}/assets/product-3.svg" alt="lemon cupcake">
+		<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3">
+			<img class="flex-img media-image" src="{{site.baseurl}}/assets/product-3.svg" alt="chocolate cupcake">
 		</div>
 		
-		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
-			<div class="gutter">
+		<div class="unit unit-s-1 unit-m-2-3 unit-l-2-3">
+			<div class="gutter border">
 				<h2>{{include.title}}</h2>
 				<p>{{include.desc}}</p>
-				<button class="btn-alt yotta bucket-btn">Pick me!</button>
-				<a href="{{site.baseurl}}" class="micro promo">See more products</a>
-
-				<ul class="list-group">
-			      <li class="list-group-item list-group-item-inline">
-			        <img src="http://placehold.it/50x50/7C6165/ffffff/&amp;text=berry" alt="berry icing">
-			      </li>
-			      <li class="list-group-item list-group-item-inline">
-			        <img src="http://placehold.it/50x50/D1A1A7/ffffff/&amp;text=candy" alt="candy icing">
-			      </li>
-			      <li class="list-group-item list-group-item-inline">
-			        <img src="http://placehold.it/50x50/EAF5EA/ffffff/&amp;text=mint" alt="mint icing">
-			      </li>
-			    </ul>
+				<p class="">{{include.price}}</p>
+				<div class="tiny float-left">
+					<p>{{include.blurb}}</p>
+					<hr>
+					<div class="round-button center">
+					<a href="{{site.baseurl}}/cart" alt="buy button">
+			    		<p class="circle-text kilo button-text">add to cart</p>
+					</a>
+				</div>
+				<a href="{{site.baseurl}}/products" class="micro promo center border white">See more options</a>
+				</div>
 			</div>
 		</div>
 

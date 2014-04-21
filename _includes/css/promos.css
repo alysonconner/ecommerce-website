@@ -3,12 +3,25 @@
 	margin: .5em;
 }
 
+hr {
+	border: 1px solid black;
+}
+
 .promo-large {
 	background-color: rgba(164,189,188,.2);
 	margin: .5em;
 	padding: .5em;
 }
 
+
 .promo-group .unit:last-child .promo-small{
 	background-color: #EAF5EA;
+}
+
+.button-text {
+	line-height: 13px;
+}
+
+.white {
+	color: white;
 }
