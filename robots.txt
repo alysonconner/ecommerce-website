@@ -5,7 +5,7 @@
 # http://robotstxt.org
 
 
-Sitemap: http://conn0105.site44.com/dsn1543/project-1/sitemap.xml
+Sitemap: http://alysonconner.github.io/ecommerce-website/sitemap.xml
 User-agent: *
 
 Disallow: /name-of-file-you-want-to-disallow/
