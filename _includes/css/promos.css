@@ -25,3 +25,13 @@ hr {
 .white {
 	color: white;
 }
+
+.total {
+	padding: 5%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.grand-total {
+	text-transform: uppercase;
+}
